@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV</title>
+  <meta name="description"
+    content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience." />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Curriculum Vitae</a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span></button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="page-content">
+    <div>
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');">
+            </div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image"><a href="#"><img
+                      src="data:image/jpeg;base64,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" alt="Image" /></a></div>
+                <div class="h2 title">Abdul Qayoom </div>
+                <p class="category text-white">Web Developer And Graphic Designer</p><a
+                  class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor">Hire Me</a>
+              </div>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon"
+                    href="https://www.facebook.com/qayoomlanjo" target=" _blank" rel="tooltip"
+                    title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a
+                    class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/qayoom_lanjo"
+                    target=" _blank" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a
+                    class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/AbdulQayoommm"
+                    target=" _blank" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a><a
+                    class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/abdul_qayoom_lanjo/"
+                    target=" _blank" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>Hello! I am Abdul Qayoom. Web Developer And Graphic Designer</p>
+                  <p style="text-align: justify !important">
+                    I can create an creative Websites using HTML 5 ,CSS 3, JavaScript and Firebase or any kind of
+                    WordPress website like business website, eCommerce website promotional websites etc. I have great
+                    expertise inGraphic designing like Logo, bussiness cards and banners etc. I Can also
+                    create Progressive Web App which will run on both Android and IOS.  
+                    <br>
+                    Below are the services area that i offer: <br>
+                    PSD to Responsive HTML, HTML 5, CSS3 JavaScript Firebase React ( Bootstrap 4 ) PWA and WordPress.
+                 </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Basic Information</div>
+                  <div class="row">
+                    <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+                    <div class="col-sm-8">19</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                    <div class="col-sm-8">abdulqayoomlanjo5@gmail.com</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                    <div class="col-sm-8">+92 341-3630538</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                    <div class="col-sm-8">Karachi, Pakistan</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                    <div class="col-sm-8">English, Sindhi, Urdu</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="skill">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Professional Skills</div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary"><span class="progress-badge">HTML5</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary"><span class="progress-badge">CSS3</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 97%;"></div><span class="progress-value">97%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary"><span class="progress-badge">Adeobe
+                      Illustartor</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 92%;"></div><span class="progress-value">92%</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="progress-container progress-primary"><span class="progress-badge">React</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                        aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto">
+              <div class="h4 text-center mb-4 title">Portfolio</div>
+              <div class="nav-align-center">
+                <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development"
+                      role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-content gallery mt-5">
+            <div class="tab-pane active" id="web-development">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://blood-bank01.firebaseapp.com/" target=" _blank">
+                        <figure class="cc-effect"><img src="images/blood1.PNG" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Recent Project</div>
+                            <p>Blood Bank With Firebase Database</p>
+                          </figcaption>
+                        </figure>
+                      </a></div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://meetupplanner1.firebaseapp.com/" target=" _blank">
+                        <figure class="cc-effect"><img src="images/project2.PNG" alt="Image" />
+                          <figcaption>
+                            <div class="h4">First Project</div>
+                            <p>Meetup Planner Using Localstorage</p>
+                          </figcaption>
+                        </figure>
+                      </a></div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://newsalert-01.firebaseapp.com/" target=" _blank">
+                        <figure class="cc-effect"><img src="images/project3.PNG" alt="Image" />
+                          <figcaption>
+                            <div class="h4">PWA Project</div>
+                            <p>PWA App Of News Using APi Keys </p>
+                          </figcaption>
+                        </figure>
+                      </a></div>
+                    <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                      <a href="https://quizzapp-7cee8.firebaseapp.com/" target=" _blank">
+                        <figure class="cc-effect"><img src="images/project4.PNG" alt="Image" />
+                          <figcaption>
+                            <div class="h4">Quizz Website</div>
+                            <p>Quizz Website With Admin Panel </p>
+                          </figcaption>
+                        </figure>
+                      </a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container cc-education">
+          <div class="h4 text-center mb-4 title">Education</div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2017 - 2018</p>
+                  <div class="h5">Skills</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Web And App Developer, Graphic Designer</div>
+                  <p class="category"> From : Saylani Mass Training Programme Karachi,Pakistan</p>
+                  <p>HTML 5, CSS 3, Bootstrap 4, JavaScript, EcmaScript6, Firebase, Adeobe Illustartor, Adeobe Photoshop
+                    and WordPress.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2016 - 2018</p>
+                  <div class="h5">Collage Degree</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Intermediate</div>
+                  <p class="category">GOVT: Boys Degree Collage Mithi Tharparkar</p>
+                  <p>I passed my Collage Degree in 2018 from BISE MPS Board Hyderabad. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2014 - 2016</p>
+                  <div class="h5">Hilal Public School Mithi</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5"> Matriculation</div>
+                  <p class="category">Hilal Public School Mithi</p>
+                  <p>I passed my Higher Education in 2016 from BISE MirPurkhas. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+       
+
+
+
+        </div>
+      </div>
+
+      <div class="section" id="contact">
+        <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
+          <div class="container">
+            <div class="cc-contact">
+              <div class="row">
+                <div class="col-md-9">
+                  <div class="card mb-0" data-aos="zoom-in">
+                    <div class="h4 text-center title">Contact Me</div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="card-body" style="text-align: center !important">
+                          <p class="mb-0"><strong>Address </strong></p>
+                          <p class="pb-2">Karachi,Pakistan</p>
+                          <p class="mb-0"><strong>Phone</strong></p>
+                          <p class="pb-2">+92 341-2630538</p>
+                          <p class="mb-0"><strong>Email</strong></p>
+                          <p>abdulqayoomlanjo5@gmail.com</p>
+                          <!-- <p>sagarvasu98@gmail.com</p> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="h4 title text-center">Abdul Qayoom</div>
+    <div class="text-center text-muted">
+      <p>&copy; CV. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/core/jquery.3.2.1.min.js"></script>
+  <script src="js/core/popper.min.js"></script>
+  <script src="js/core/bootstrap.min.js"></script>
+  <script src="js/now-ui-kit.js?v=1.1.0"></script>
+  <script src="js/aos.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
